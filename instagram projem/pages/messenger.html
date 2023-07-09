@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="../dist/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/25942c7a88.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="nav">
+        <div class="nav-content">
+            <!-- Logo Start -->
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="../images/Logo.png" alt="Instagram Logo">
+                </a>
+            </div>
+            <!-- Logo End -->
+
+            <!-- Right Area Start -->
+            <div class="nav-rigt-area">
+                <div class="search">
+                    <input type="text" placeholder="&#xF002;  Ara" style="font-family:Arial, FontAwesome">
+                </div>
+                <!-- Icon Area Start -->
+                <div class="icons">
+
+                    <!-- Home Page Icon -->
+                    <a href="../index.html">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.8541 22H13.7958C13.4291 22 13.1083 21.6792 13.1083 21.3125V15.675C13.1083 14.4833 12.1458 13.5667 11 13.5667C9.85415 13.5667 8.89165 14.5292 8.89165 15.675V21.3125C8.89165 21.6792 8.57081 22 8.20415 22H1.14581C0.779146 22 0.458313 21.6792 0.458313 21.3125V10.5417C0.458313 10.3583 0.54998 10.175 0.641646 10.0375L10.4958 0.183331C10.7708 -0.0916687 11.2291 -0.0916687 11.4583 0.183331L21.3125 10.0375C21.45 10.175 21.4958 10.3583 21.4958 10.5417V21.3125C21.5416 21.6792 21.2208 22 20.8541 22Z"
+                                fill="#262626" />
+                        </svg>
+                    </a>
+
+                    <!-- Messages Icon -->
+                    <a href="#">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.5916 7.65418L13.2916 10.175C13.0625 10.3583 12.7416 10.3583 12.5125 10.175L10.0375 8.34168C9.30415 7.79168 8.24998 7.97501 7.74581 8.75418L4.62915 13.6583C4.30831 14.1167 4.90415 14.6667 5.36248 14.3458L8.70831 11.825C8.93748 11.6417 9.25831 11.6417 9.48748 11.825L11.9625 13.6583C12.6958 14.2083 13.75 14.025 14.2541 13.2458L17.3708 8.34168C17.6458 7.83751 17.05 7.33334 16.5916 7.65418ZM11 0.458344C5.04165 0.458344 0.458313 4.81251 0.458313 10.6792C0.458313 13.75 1.69581 16.4083 3.75831 18.2417C3.94165 18.3792 4.03331 18.6083 4.03331 18.8375L4.12498 20.7167C4.12498 21.175 4.53748 21.5417 4.94998 21.5417C5.04165 21.5417 5.17915 21.5417 5.27081 21.45L7.37915 20.5333C7.47081 20.4875 7.60831 20.4417 7.69998 20.4417C7.79165 20.4417 7.83748 20.4417 7.92915 20.4875C8.89165 20.7625 9.89998 20.9 11 20.9C16.9583 20.9 21.5416 16.5458 21.5416 10.6792C21.5416 4.81251 16.9583 0.458344 11 0.458344ZM11 19.525C10.0833 19.525 9.16665 19.3875 8.29581 19.1583C8.11248 19.1125 7.92915 19.0667 7.69998 19.0667C7.37915 19.0667 7.10415 19.1125 6.78331 19.25L5.40831 19.8458V18.7917C5.40831 18.1958 5.13331 17.6458 4.67498 17.2333C2.84165 15.5833 1.83331 13.2458 1.83331 10.6792C1.83331 5.63751 5.77498 1.83334 11 1.83334C16.225 1.83334 20.1666 5.63751 20.1666 10.6792C20.1666 15.7208 16.225 19.525 11 19.525Z"
+                                fill="#262626" />
+                        </svg>
+                    </a>
+
+                    <!-- New Posts Icon -->
+                    <a href="#">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.575 22H7.425C4.4 22 3.025 21.2667 1.87917 20.1667C0.733333 18.975 0 17.6 0 14.575V7.425C0 4.4 0.733333 3.025 1.83333 1.87917C3.025 0.733333 4.4 0 7.425 0H14.575C17.6 0 18.975 0.733333 20.1208 1.83333C21.2667 3.025 22 4.4 22 7.425V14.575C22 17.6 21.2667 18.975 20.1667 20.1208C18.975 21.2667 17.6 22 14.575 22ZM7.425 1.375C4.58333 1.375 3.575 2.10833 2.79583 2.84167C2.10833 3.575 1.375 4.58333 1.375 7.425V14.575C1.375 17.4167 2.10833 18.425 2.84167 19.2042C3.575 19.9375 4.58333 20.625 7.425 20.625H14.575C17.4167 20.625 18.425 19.8917 19.2042 19.1583C19.9375 18.425 20.625 17.4167 20.625 14.575V7.425C20.625 4.58333 19.8917 3.575 19.1583 2.79583C18.425 2.10833 17.4167 1.375 14.575 1.375H7.425Z"
+                                fill="#262626" />
+                            <path
+                                d="M16.6375 11.6875H5.36249C4.99582 11.6875 4.67499 11.3667 4.67499 11C4.67499 10.6333 4.99582 10.3125 5.36249 10.3125H16.6375C17.0042 10.3125 17.325 10.6333 17.325 11C17.325 11.3667 17.0042 11.6875 16.6375 11.6875Z"
+                                fill="#262626" />
+                            <path
+                                d="M11 17.325C10.6333 17.325 10.3125 17.0042 10.3125 16.6375V5.36249C10.3125 4.99582 10.6333 4.67499 11 4.67499C11.3667 4.67499 11.6875 4.99582 11.6875 5.36249V16.6375C11.6875 17.0042 11.3667 17.325 11 17.325Z"
+                                fill="#262626" />
+                        </svg>
+                    </a>
+
+                    <!-- Discover Icon -->
+                    <a href="#">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11 0C4.95 0 0 4.95 0 11C0 17.05 4.95 22 11 22C17.05 22 22 17.05 22 11C22 4.95 17.05 0 11 0ZM11 20.625C5.68333 20.625 1.375 16.3167 1.375 11C1.375 5.68333 5.68333 1.375 11 1.375C16.3167 1.375 20.625 5.68333 20.625 11C20.625 16.3167 16.3167 20.625 11 20.625ZM15.675 5.40833L8.89167 8.61667C8.75417 8.6625 8.61667 8.8 8.57083 8.9375L5.3625 15.7208C5.225 15.9958 5.27083 16.3167 5.5 16.5C5.6375 16.6375 5.82083 16.6833 6.00417 16.6833C6.09583 16.6833 6.1875 16.6833 6.27917 16.6375L13.0625 13.4292C13.2 13.3833 13.3375 13.2458 13.3833 13.1083L16.5917 6.325C16.7292 6.05 16.6833 5.72917 16.4542 5.54583C16.2708 5.31667 15.95 5.27083 15.675 5.40833ZM12.2833 12.2833L9.7625 9.7625L14.575 7.47083L12.2833 12.2833Z"
+                                fill="#262626" />
+                        </svg>
+                    </a>
+
+                    <!-- Activity Feed Icon -->
+                    <a href="#">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_103_2039)">
+                                <path
+                                    d="M15.8583 2.79578C18.4708 2.79578 20.625 5.17911 20.625 8.06661C20.625 11.1833 17.9208 13.1083 15.3542 15.3999C12.7875 17.6916 11.4583 18.9291 11 19.2041C10.4958 18.8833 8.84583 17.3708 6.64583 15.3999C4.03333 13.1083 1.375 11.1833 1.375 8.06661C1.375 5.17911 3.52917 2.79578 6.14167 2.79578C8.06667 2.79578 9.12083 3.71244 9.85417 4.76661C10.725 5.95828 10.8625 6.55411 11 6.55411C11.1375 6.55411 11.275 5.95828 12.1458 4.76661C12.8792 3.71244 13.9333 2.79578 15.8583 2.79578ZM15.8583 1.42078C13.7958 1.42078 12.2375 2.24578 11 3.98744C9.7625 2.29161 8.20417 1.46661 6.14167 1.46661C2.75 1.42078 0 4.39994 0 8.06661C0 11.4124 2.475 13.5666 4.85833 15.6291C5.13333 15.8583 5.45417 16.1333 5.72917 16.4083L6.78333 17.3249C8.8 19.1124 9.80833 20.0291 10.2667 20.3041C10.4958 20.4416 10.7708 20.5333 11 20.5333C11.275 20.5333 11.5042 20.4416 11.7333 20.3041C12.1917 20.0291 13.0167 19.2958 15.3083 17.1874L16.225 16.3624C16.5458 16.0874 16.8208 15.8124 17.1417 15.5833C19.5708 13.5666 22 11.4583 22 8.06661C22 4.39994 19.25 1.42078 15.8583 1.42078Z"
+                                    fill="#262626" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_103_2039">
+                                    <rect width="22" height="22" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <!-- Profile Photo Start -->
+                    <a href="#"><img src="../images/profil.jpg" alt="Profile Photo"></a>
+                    <!-- Profile Photo End -->
+                </div>
+                <!-- Icon Area End -->
+            </div>
+            <!-- Right Area End -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Container Start -->
+    <section class="content-container">
+        <div class="messenger-body">
+            <div class="messenger-left-side">
+                <div class="messenger-header">
+                    <div class="messenger-profile-name">
+                        <a href="#">
+                            <span>ibrahim_yilmaz45</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                    </div>
+                    <div class="messenger-icon">
+                        <a href="#">
+                            <i class="fa-solid fa-pen-to-square "></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="messenger-messages">
+                    <div class="messages-users">
+                        <div class="messenger-user-box">
+                            <img src="../images/profil2.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">Kullanıcı-1</span>
+                                <p class="message"><a href="../pages/messengerchat.html">Merhaba </a></p>
+
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-2</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil3.png" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-3</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil4.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-4</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil5.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-5</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil6.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-6</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil7.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-7</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil8.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-8</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-9</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+
+                        <div class="messenger-user-box">
+                            <img src="../images/profil2.jpg" alt="Profile Photo">
+                            <div class="user-message-info">
+                                <span class="name">kullanıcı-10</span>
+                                <p class="message">Lorem ipsum dolor, sit amet.</p>
+                                <!-- Burada js ile cümlenin sonuna 3 nokta olmasını sağlayacağım -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="messenger-right-side">
+                <div class="right-side-content">
+                    <div class="circle mb-16">
+                        <img src="../images/icons/post/share-posts.svg" alt="">
+                    </div>
+                    <div class="text mb-16">
+                        <h3 class="mb-8">Mesajların
+                        </h3>
+                        <p class="mb-8 mb-36">Bir arkadaşına veya gruba gizli fotoğraflar ve mesajlar gönder.</p>
+                    </div>
+                    <a href="#">Mesaj Gönder</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+                
+                </section>
+                <!-- Container End -->
+            
+            </body>
+    </section>
+    <!-- Container End -->
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+    <!-- Container End -->
+
+</body>
+
+</html>
